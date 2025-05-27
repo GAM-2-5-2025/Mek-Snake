@@ -25,7 +25,7 @@ background = pygame.transform.scale(background, (window_x, window_y))
 
 fps = pygame.time.Clock()
 
-snake_size = 15
+snake_size = 20
 
 snake_speed_initial = 10.0
 max_snake_speed = 13.8
@@ -157,12 +157,12 @@ def game_over_screen(score):
 
 def main_game():
     snake_speed = snake_speed_initial
-    snake_position = [105, 45]
+    snake_position = [100, 40]
     snake_body = [
-        [105, 45],
-        [90, 45],
-        [75, 45],
-        [60, 45]
+        [100, 40],
+        [80, 40],
+        [60, 40],
+        [40, 40]
     ]
     direction = 'RIGHT'
     change_to = direction
