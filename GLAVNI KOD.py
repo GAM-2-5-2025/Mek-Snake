@@ -682,10 +682,10 @@ def main_game():
 
         game_window.blit(background_game, (0, 0))
         green_color = (30, 132, 73)
-        pygame.draw.rect(game_window, green_color, pygame.Rect(0, 0, margin, window_y))  # lijeva margina
-        pygame.draw.rect(game_window, green_color, pygame.Rect(window_x - margin, 0, margin, window_y))  # desna margina
-        pygame.draw.rect(game_window, green_color, pygame.Rect(0, 0, window_x, margin))  # gornja margina
-        pygame.draw.rect(game_window, green_color, pygame.Rect(0, window_y - margin, window_x, margin))  # donja margina
+        pygame.draw.rect(game_window, green_color, pygame.Rect(0, 0, margin, window_y)) 
+        pygame.draw.rect(game_window, green_color, pygame.Rect(window_x - margin, 0, margin, window_y)) 
+        pygame.draw.rect(game_window, green_color, pygame.Rect(0, 0, window_x, margin)) 
+        pygame.draw.rect(game_window, green_color, pygame.Rect(0, window_y - margin, window_x, margin)) 
 
 
         for i in range(len(snake_body)):
